@@ -9,7 +9,7 @@ See the `domain` package object to see the JSON handling logic.
 See the `MovieService` class to see **Anorm** in action.
 
 #### Usage
-* `POST` to `http://localhost:9000/rate` to add a movie:
+* `POST` to `http://localhost:9000/movie` to add a movie:
 `curl -X POST -H 'Content-Type:application/json' -d '{"name" : "Batman V Superman", "stars" : -10}' http://localhost:9000/movie`
 
 * `GET` `http://localhost:9000/movie` to see the saved movies.
